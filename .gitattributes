@@ -11,7 +11,7 @@
 # Note: This is only used by command line
 ###############################################################################
 #*.cs     diff=csharp
-
+*.h linguist-language=C++
 ###############################################################################
 # Set the merge driver for project and solution files
 #
@@ -53,8 +53,8 @@
 ###############################################################################
 #*.doc   diff=astextplain
 #*.DOC   diff=astextplain
-#*.docx  diff=astextplain
-#*.DOCX  diff=astextplain
+*.docx  diff=astextplain
+*.DOCX  diff=astextplain
 #*.dot   diff=astextplain
 #*.DOT   diff=astextplain
 #*.pdf   diff=astextplain
